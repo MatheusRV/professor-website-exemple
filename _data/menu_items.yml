@@ -1,0 +1,47 @@
+- name: Status
+  icon: user circle
+  id: status
+
+- name: Summary
+  icon: stream
+  id: summary
+
+- name: Education
+  icon: graduation cap
+  id: education
+
+- name: Experience
+  icon: business time
+  id: experience
+
+- name: Projects
+  icon: rocket
+  id: projects
+
+- name: Courses
+  icon: book
+  id: courses
+
+- name: Awards
+  icon: trophy
+  id: awards
+
+- name: Publications
+  icon: file alternate
+  id: publications
+
+- name: Patents
+  icon: balance scale
+  id: patents
+
+- name: Languages
+  icon: translate
+  id: languages
+
+- name: Skills
+  icon: code
+  id: skills
+
+- name: Additional Info
+  icon: infinity
+  id: additional-info

@@ -1,0 +1,52 @@
+
+title: John Doe
+description: Curriculum Vita
+keywords: Tong QU, Curriculum Vitæ, CV, Resume
+url: https://about.qutong.me
+repository: https://github.com/iROCKBUNNY/CV
+timezone: Asia/Shanghai
+
+author: iROCKBUNNY
+author_url: https://irockbunny.com
+organization: TEELAB
+organization_url: https://teelab.net
+
+contact: hello[at]qutong[dot]me
+github: https://github.com/iROCKBUNNY
+
+image: /images/avatar.jpg
+
+languages: ["en", "pt-br", "es"]
+
+collections:
+  articles:
+    output: true
+
+jekyll_get:
+  data: team
+  json: 'https://18f.gsa.gov/hub/api/team/'
+
+plugins:
+- jekyll-giphy
+- jekyll-multiple-languages-plugin
+- jekyll-seo-tag
+- jekyll-target-blank
+- jemoji
+- premonition
+
+mermaid:
+  src: '_assets/js/mermaid.min.js'
+
+google_analytics_id: UA-56996624-2
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- archive
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
